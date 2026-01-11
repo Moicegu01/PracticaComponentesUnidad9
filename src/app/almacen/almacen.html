@@ -1,0 +1,11 @@
+<div class="contenedor-padre">
+  <h1>Componente Padre (Almacén)</h1>
+  <p>Datos reales en el sistema: <strong>{{ stockPadre }}</strong> unidades.</p>
+  <hr>
+  
+  <app-producto
+      [nombre]="productoPadre"
+      [stock]="stockPadre"
+      (stockCambiado)="actualizarDato($event)">
+  </app-producto>
+</div>

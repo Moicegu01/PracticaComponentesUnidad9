@@ -1,0 +1,13 @@
+.tarjeta-hijo {
+  border: 2px solid #333;
+  background-color: #e0e0e0; /* Gris claro */
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+  text-align: center;
+}
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
